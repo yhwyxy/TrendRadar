@@ -1,0 +1,122 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 255</p><p>生成时间: 2025-08-21 16:58:23</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">ai 人工智能</td>
+                    <td class="count">6</td>
+                    <td class="percentage">2.35%</td>
+                    <td class="titles">[bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BB%8A%E5%A4%A9%E5%87%A4%E5%87%B0%E9%99%A2%E5%87%B6%E7%9C%9F%E5%8F%91%E9%80%81Dmail" target="_blank" class="news-link">今天凤凰院凶真发送Dmail</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时58分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121302" target="_blank" class="news-link">徐翔重出江湖？社交平台AI生成“李鬼”泛滥，都有哪些欺骗套路？</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 16时58分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121424" target="_blank" class="news-link">AI领域大新闻！不光是重组团队 Meta被曝已暂停AI招聘</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时58分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121563" target="_blank" class="news-link">四部门：推动人工智能技术在耳与听力健康领域应用</a> [6] <font color='grey'>- 16时58分</font><br>[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753723" target="_blank" class="news-link">百度Q2营收同比下降4%，核心净利润增35%，AI新业务收入首次超过100亿元 | 财报见闻</a> [8] <font color='grey'>- 16时58分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2121357" target="_blank" class="news-link">美国科技股连遭抛售，AI主题“清算”时刻已至？华尔街这么看</a> [9] <font color='grey'>- 16时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">DeepSeek 梁文锋</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753798" target="_blank" class="news-link">DeepSeek-V3.1正式发布，混合推理架构加持，针对下一代国产芯片设计</a> [7] <font color='grey'>- 16时58分</font><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2121646" target="_blank" class="news-link">DeepSeek-V3.1正式发布</a> [10] <font color='grey'>- 16时58分</font></div></td>
+                </tr>
+            
+                <tr>
+                    <td>3</td>
+                    <td class="word">马斯克 特斯拉</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.78%</td>
+                    <td class="titles">[zhihu] <a href="https://www.zhihu.com/question/1941535461521725332" target="_blank" class="news-link">小鹏半年销量已超去年全年，毛利率超特斯拉，现金储备 475 亿元，小鹏做对了什么？</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时58分</font><br>[凤凰网] <a href="https://news.ifeng.com/c/8m04FZMDJ8m" target="_blank" class="news-link">马斯克放弃组建“美国党”转而支持万斯？万斯回应</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 16时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>4</td>
+                    <td class="word">谷歌 google gemini deepmind</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2121229" target="_blank" class="news-link">俄方有向印度出口液化天然气的潜力 谷歌发布Pixel 10系列手机 | 环球市场</a> [13] <font color='grey'>- 16时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>5</td>
+                    <td class="word">汽车 自动驾驶 l3</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[douyin] <a href="https://www.douyin.com/hot/2209948" target="_blank" class="news-link">卢伟冰：小米汽车不参与价格战</a> [18] <font color='grey'>- 16时58分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>6</td>
+                    <td class="word">科技</td>
+                    <td class="count">1</td>
+                    <td class="percentage">0.39%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3753708" target="_blank" class="news-link">科技股探底反弹，纳指仍跌近0.7%，道指惊险收涨，黄金、原油、加密货币齐反弹</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 16时58分</font></td>
+                </tr>
+            
+            </table>
+        
+            <div class="new-section">
+                <h3>🆕 本次新增热点新闻 (共 1 条)</h3>
+            <h4>财联社热门 (1 条)</h4><ul><li><a href="https://www.cls.cn/detail/2121646" target="_blank" class="news-link">DeepSeek-V3.1正式发布</a> [10]</li></ul></div>
+        </body>
+        </html>
+        
